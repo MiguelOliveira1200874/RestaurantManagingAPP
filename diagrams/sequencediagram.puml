@@ -1,0 +1,16 @@
+@startuml
+actor Customer
+participant "Order System" as Order
+participant "Payment System" as Payment
+
+Customer -> Order: selectItems()
+activate Order
+Order -> Payment: initiatePayment()
+activate Payment
+Payment --> Customer: displayPaymentOptions()
+Customer -> Payment: makePayment()
+Payment -> Order: confirmPayment()
+deactivate Payment
+Order --> Customer: confirmOrder()
+deactivate Order
+@enduml

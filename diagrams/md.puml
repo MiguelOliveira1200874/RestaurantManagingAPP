@@ -1,0 +1,33 @@
+@startuml
+class Customer {
+    -name: String
+    -email: String
+    +makeReservation()
+    +placeOrder()
+}
+
+class Reservation {
+    -date: Date
+    -time: Time
+    -tableNumber: int
+    +confirm()
+    +cancel()
+}
+
+class RestaurantOrder {
+    -orderItems: MenuItem[]
+    -totalPrice: float
+    +addItem(item: MenuItem)
+    +removeItem(item: MenuItem)
+}
+
+class MenuItem {
+    -name: String
+    -price: float
+    +updatePrice(newPrice: float)
+}
+
+Customer "1" -- "*" Reservation : makes >
+Reservation "*" -- "1" RestaurantOrder : includes >
+RestaurantOrder "*" -- "*" MenuItem : contains >
+@enduml

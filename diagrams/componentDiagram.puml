@@ -1,0 +1,24 @@
+@startuml
+package "User Interface" {
+  [Reservation UI]
+  [Order UI]
+  [Feedback UI]
+}
+
+package "Backend System" {
+  [Reservation System]
+  [Order System]
+  [Feedback System]
+}
+
+database "Database" {
+  [Data Storage]
+}
+
+[Reservation UI] ..> [Reservation System] : uses
+[Order UI] ..> [Order System] : uses
+[Feedback UI] ..> [Feedback System] : uses
+[Reservation System] ..> [Data Storage] : reads/writes
+[Order System] ..> [Data Storage] : reads/writes
+[Feedback System] ..> [Data Storage] : reads/writes
+@enduml
