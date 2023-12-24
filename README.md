@@ -7,7 +7,6 @@ A comprehensive application designed to streamline the operations of restaurants
 Detail the required steps for setting up and installing the app, including necessary software like Java and PostgreSQL, as well as any initial configuration procedures.
 
 ## Usage
-## Usage
 
 This section guides you through getting the Restaurant Managing App up and running on your local machine and highlights how to use the primary features of the application.
 
@@ -71,7 +70,7 @@ Instructions on how to manage table assignments and statuses throughout the day.
 - Customer Feedback
 
 ## Testing
-Describe the process for running tests within your project. Mention any utilized frameworks such as JUnit or Spring Boot Test.
+JUnit and Spring Boot Test.
 
 ## Contribution
 Guidelines for those interested in contributing to the project:
@@ -83,7 +82,7 @@ Guidelines for those interested in contributing to the project:
 6. Create a new Pull Request.
 
 ## License
-Specify the license under which your project is released.
+
 
 ## Contact
-Provide contact information for further assistance or collaboration opportunities.
+
