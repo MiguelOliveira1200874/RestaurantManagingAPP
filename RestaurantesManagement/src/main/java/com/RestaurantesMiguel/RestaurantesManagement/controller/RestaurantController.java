@@ -45,6 +45,7 @@ public class RestaurantController {
         List<MenuItem> menuItems = restaurantService.getMenuItems();
         return ResponseEntity.ok(menuItems);
     }
+
     @PostMapping("/tables/updateGuests")
     public ResponseEntity<?> updateTableGuests(@RequestParam("tableId") Long tableId, @RequestParam("numberOfGuests") int numberOfGuests) {
         try {
