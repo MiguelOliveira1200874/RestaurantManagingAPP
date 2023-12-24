@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RestaurantesManagement.iml" filepath="$PROJECT_DIR$/.idea/RestaurantesManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.iml" filepath="$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.RestaurantesMiguel.RestaurantesManagement.test.iml" />
     </modules>
